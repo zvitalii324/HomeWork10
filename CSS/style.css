@@ -314,7 +314,7 @@ footer {
   }
 
   .projects__number {
-    field-sizing: 10px;
+    font-size: 10px;
     padding-left: 20px;
     padding-top: 35px;
   }
