@@ -215,6 +215,29 @@ footer {
   font-weight: 400;
 }
 
+@media (max-width: 1024px) {
+  .navigation {
+    padding-left: 20px;
+  }
+
+  .section-herro {
+    padding-left: 20px;
+  }
+
+  .projects {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .how_i_work__video {
+    max-width: 800px;
+  }
+
+  .footer {
+    padding-left: 20px;
+  }
+}
+
 @media (max-width: 992px) {
   .navigation {
     padding-left: 20px;
@@ -256,13 +279,93 @@ footer {
   }
 }
 
+@media (max-width: 540px) {
+  .navigation__item {
+    margin-right: 15px;
+  }
+
+  .section-herro__desc {
+    padding-right: 20px;
+  }
+
+  .projects__img>img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .projects__number {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 35px;
+  }
+
+  .projects__subtext {
+    font-size: 10px;
+    padding-left: 20px;
+  }
+
+  .projects__desc {
+    margin-left: -5px;
+    margin-bottom: 35px;
+  }
+
+  .projects {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .how_i_work__video--bg {
+    width: 450px;
+    margin-left: 35px;
+  }
+}
+
+@media (max-width: 430px) {
+  .navigation__item {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .projects {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .projects__img>img {
+    width: 50px;
+    height: 45px;
+  }
+
+  .projects__number {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 35px;
+  }
+
+  .projects__subtext {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+
+  .how_i_work__video--bg {
+    width: 350px;
+    margin-left: 25px;
+  }
+
+  .how_i_work__video--but {
+    max-width: 40px;
+  }
+}
+
 @media (max-width: 375px) {
   .header {
     padding-top: 30px;
   }
 
   .navigation__item {
-    font-size: 12px;
+    font-size: 10px;
     margin-right: 10px;
   }
 
@@ -308,13 +411,8 @@ footer {
     padding-bottom: 50px;
   }
 
-  .projects__img {
-    max-width: 15px;
-    max-height: 15px;
-  }
-
   .projects__number {
-    font-size: 10px;
+    font-size: 13px;
     padding-left: 20px;
     padding-top: 35px;
   }
@@ -341,6 +439,11 @@ footer {
 
   .how_i_work__video {
     max-width: 300px;
+  }
+
+  .how_i_work__video--bg {
+    margin-left: 0;
+    width: 300px;
   }
 
   .how_i_work__video--but {
